@@ -101,8 +101,12 @@ ul.items {
   padding: 0;
   margin: 0;
 }
+ul.items > li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 ul.items > li > a {
-  margin-bottom: 15px;
   display: flex;
   color: initial;
   text-decoration: initial;
